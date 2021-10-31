@@ -8,10 +8,10 @@
 </head>
 
 <body>
-    <!--change div to header-->
     <header>
+        <!--Name of company in the top righthand corner-->
         <h1>Hori<span class="seo">seo</span>n</h1>
-       <!-- changed div to nav -->
+        <!--Navigation bar with links to each section of the main content-->
         <nav>
             <ul>
                 <li>
@@ -26,13 +26,12 @@
             </ul>
         </nav>
     </header>
-    <!--changed div to section & the class name to be more descriptive-->
+    <!--Background picture aesthetic purposes-->
     <section class="background-picture"></section>
-    <!-- changed div to main -->
+    <!--Main part of the website with three separate sections-->
     <main class="content">
-        <!-- changed div to section x3 -->
-        <section class="search-engine-optimization">
-            <!--Added an alt and title attribute to each img tag-->
+        <!--First section covers SEO-->
+        <section class="main-section" id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" 
                  alt="A notebook with a diagram of important SEO components laying on a wooden desk next to a 
                  laptop, magnifying glass, cup of coffee, and a cup for pencils, pens, and highlighters."
@@ -45,7 +44,8 @@
                 and find the right customers for your business.
             </p>
         </section>
-        <section id="online-reputation-management" class="online-reputation-management">
+        <!--Second section covers reputation management-->
+        <section id="online-reputation-management" class="main-section">
             <img src="./assets/images/online-reputation-management.jpg" 
                  alt="A computer displaying a bar graph titled, 'Reputation.' The bar graph shows 
                  gradual improvement in reputation as the bars continue to increase in height from left to right."
@@ -59,11 +59,12 @@
                 over what potential customers see when they search for your business.
             </p>
         </section>
-        <section id="social-media-marketing" class="social-media-marketing">
+        <!--Third section covers social media marketing-->
+        <section id="social-media-marketing" class="main-section">
             <img src="./assets/images/social-media-marketing.jpg" 
                  alt="A picture of a group of people who are seated around a table while engaging on different social media 
                  applications. "
-                 Title="Social Media Marketing"
+                 title="Social Media Marketing"
                  class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -72,10 +73,9 @@
             </p>
         </section>
     </main>
-    <!-- changed div to <section> -->
-    <section class="benefits">
-        <!--added an alt and title attribute to each img tag-->
-        <div class="benefit-lead">
+    <!--Section that runs down the right hand side of the page and covers three different benefits-->
+    <aside class="benefits">
+        <div class="benefit-div">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" 
                  alt="An icon that consists of a mechanical gear overtop an arrow inside of a funnel that points down to a money symbol."
@@ -84,7 +84,7 @@
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
-        <div class="benefit-brand">
+        <div class="benefit-div">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" 
                  alt="An icon that consists of a lightbulb with curved lines on either side of it. The lightbulb is directly 
@@ -95,7 +95,7 @@
                 your business.
             </p>
         </div>
-        <div class="benefit-cost">
+        <div class="benefit-div">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" 
                  alt="An icon displaying a mechanical gear and three money symbols that are each enclosesd in their own circle."
@@ -104,8 +104,8 @@
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </section>
-    <!--changed div to <footer>-->
+    </aside>
+    <!--Footer contains the copyright information-->
     <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
