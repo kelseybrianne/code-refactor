@@ -8,7 +8,7 @@ Furthermore, to increase the efficiency of the CSS stylesheet, selectors and pro
 
 ## Link
 
-The deployed application can be found at https://kelseybrianne.github.io/horiseon/. 
+The deployed application can be found at kelseybrianne.github.io/code-refactor/. 
 
 ## Screenshot
 
